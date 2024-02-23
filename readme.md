@@ -8,11 +8,8 @@
 
 Similify is a versatile JavaScript package designed to simplify and enhance similarity comparisons in various contexts. Whether you're comparing words, objects, arrays, or exploring string lengths and numerical ranges, Similify provides an easy-to-use interface with customizable thresholds. Effortlessly find the most similar instances and match percentages, making complex comparisons a breeze. Streamline your similarity analysis and unlock new possibilities with Similify.
 
-## Installation
-
-```bash
-npm install similify
-```
+## Intention: 
+> this version of Similify is only made for BB Bots
 
 ## Usage
 
