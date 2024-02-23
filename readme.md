@@ -2,14 +2,17 @@
 # Similify
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github/issues/Untoldhacker-Dev/similify.bb.svg)](https://github.com/Untoldhacker-Dev/similify.bb/issues)
-[![GitHub stars](https://img.shields.io/github/stars/Untoldhacker-Dev/similify.bb.svg)](https://github.com/Untoldhacker-Dev/similify.bb/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Untoldhacker-Dev/Similify.svg)](https://github.com/Untoldhacker-Dev/Similify/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Untoldhacker-Dev/Similify.svg)](https://github.com/Untoldhacker-Dev/Similify/stargazers)
 [![Telegram](https://img.shields.io/badge/chat-on%20telegram-0088cc.svg)](https://t.me/CubeTon)
 
 Similify is a versatile JavaScript package designed to simplify and enhance similarity comparisons in various contexts. Whether you're comparing words, objects, arrays, or exploring string lengths and numerical ranges, Similify provides an easy-to-use interface with customizable thresholds. Effortlessly find the most similar instances and match percentages, making complex comparisons a breeze. Streamline your similarity analysis and unlock new possibilities with Similify.
 
-## Intention: 
-> this version of Similify is only made for BB Bots
+## Installation
+
+```bash
+npm install similify
+```
 
 ## Usage
 
@@ -18,93 +21,93 @@ Require Similify in your JavaScript file and start using its functions:
 ### Compare Words
 
 ```javascript
-const { compareWords } = require('similify');
+const { compareWords } = Libs.similify;
 
 // Example usage with default threshold (70)
 const result = compareWords("apple", "orange");
-console.log(result);
+// Bot.inspect(result);
 // Output: { mostSimilar: 'orange', matchPercentage: 71.43 }  
 ```
 
 ### Word to Object in Array Comparison
 
 ```javascript
-const { wordToObjectArrayComparison } = require('similify');
+const { wordToObjectArrayComparison } = Libs.similify;
 
 const objectsArray = [{ name: "banana" }, { name: "orange" }];
 
 const result = wordToObjectArrayComparison("apple", objectsArray, "name");
-console.log(result);
+// Bot.inspect(result);
 // Output: { mostSimilar: 'orange', matchPercentage: 71.43 }  
 ```
 
 ### Compare Objects
 
 ```javascript
-const { compareObjects } = require('similify');
+const { compareObjects } = Libs.similify;
 
 // Example usage with default threshold (70)
 const result = compareObjects({ a: 1, b: 2 }, { a: 1, b: 3 });
-console.log(result);
+// Bot.inspect(result);
 // Output: { mostSimilar: '{"a":1,"b":2}', matchPercentage: 71.43 }  
 ```
 
 ### Compare Array Places
 
 ```javascript
-const { compareArrayPlaces } = require('similify');
+const { compareArrayPlaces } = Libs.similify;
 
 const array1 = ["apple", "banana"];
 const array2 = ["orange", "banana"];
 
 const result = compareArrayPlaces(array1, 0, array2, 1);
-console.log(result);
+// Bot.inspect(result);
 // Output: { mostSimilar: 'banana', matchPercentage: 71.43 }  
 ```
 
 ### Compare Word to Array
 
 ```javascript
-const { compareWordToArray } = require('similify');
+const { compareWordToArray } = Libs.similify;
 
 const word = "apple";
 const array = ["orange", "banana", "grape"];
 
 const result = compareWordToArray(word, array);
-console.log(result);
+// Bot.inspect(result);
 // Output: { mostSimilar: 'grape', matchPercentage: 57.14 }  
 ```
 
 ### Compare Arrays
 
 ```javascript
-const { compareArrays } = require('similify');
+const { compareArrays } = Libs.similify;
 
 const array1 = ["apple", "banana"];
 const array2 = ["orange", "banana", "grape"];
 
 const result = compareArrays(array1, array2);
-console.log(result);
+// Bot.inspect(result);
 // Output: { mostSimilar: ['banana'], matchPercentage: 66.67 }  
 ```
 
 ### Compare String Length
 
 ```javascript
-const { compareStringLength } = require('similify');
+const { compareStringLength } = Libs.similify;
 
 const result = compareStringLength("apple", "orange");
-console.log(result);
+// Bot.inspect(result);
 // Output: { longerString: 'orange', lengthDifference: 1 }  
 ```
 
 ### Compare Number to Range
 
 ```javascript
-const { compareNumberToRange } = require('similify');
+const { compareNumberToRange } = Libs.similify;
 
 const result = compareNumberToRange(25, 20, 30);
-console.log(result);
+// Bot.inspect(result);
 // Output: { withinRange: true, deviationFromMidpoint: 2.5 }  
 ```
 
