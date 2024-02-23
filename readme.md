@@ -2,17 +2,17 @@
 # Similify
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github/issues/Untoldhacker-Dev/Similify.svg)](https://github.com/Untoldhacker-Dev/Similify/issues)
-[![GitHub stars](https://img.shields.io/github/stars/Untoldhacker-Dev/Similify.svg)](https://github.com/Untoldhacker-Dev/Similify/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Untoldhacker-Dev/similify.bb.svg)](https://github.com/Untoldhacker-Dev/similify.bb/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Untoldhacker-Dev/similify.bb.svg)](https://github.com/Untoldhacker-Dev/similify.bb/stargazers)
 [![Telegram](https://img.shields.io/badge/chat-on%20telegram-0088cc.svg)](https://t.me/CubeTon)
 
 Similify is a versatile JavaScript package designed to simplify and enhance similarity comparisons in various contexts. Whether you're comparing words, objects, arrays, or exploring string lengths and numerical ranges, Similify provides an easy-to-use interface with customizable thresholds. Effortlessly find the most similar instances and match percentages, making complex comparisons a breeze. Streamline your similarity analysis and unlock new possibilities with Similify.
 
-## Installation
+## Intention 
 
-```bash
-npm install similify
-```
+> This version of Similify is Made for BB Bots only
+
+
 
 ## Usage
 
