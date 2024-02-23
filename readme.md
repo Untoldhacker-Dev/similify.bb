@@ -16,7 +16,7 @@ Similify is a versatile JavaScript package designed to simplify and enhance simi
 
 ## Usage
 
-Require Similify in your JavaScript file and start using its functions:
+Require Similify in your Bot JavaScript code and start using its functions:
 
 ### Compare Words
 
